@@ -5,6 +5,7 @@ app.get("/products", (req, res) => {
  res.json([
  { id: 1, name: "Produto Exemplo" },
  { id: 2, name: "Outro Produto" },
+ { id: 3, name: "Computador" }
  ]);
 });
 // Nova funcionalidade
@@ -12,7 +13,7 @@ app.get("/categories", (req, res) => {
  res.json([
  { id: 1, name: "Eletrônicos" },
  { id: 2, name: "Livros" },
- { id: 3, name: "Computador" }
+ { id: 3, name: "Outros" }
  ]);
 });
 
